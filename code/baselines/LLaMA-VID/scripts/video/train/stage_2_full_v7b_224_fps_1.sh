@@ -23,15 +23,15 @@ deepspeed llamavid/train/train_mem.py \
     --bf16 True \
     --output_dir ./work_dirs/llama-vid-7b-full-224-video-fps-1  \
     --num_train_epochs 16 \
-    --per_device_train_batch_size 4 \
-    --per_device_eval_batch_size 4 \
-    --gradient_accumulation_steps 4 \
+    --per_device_train_batch_size 1 \
+    --per_device_eval_batch_size 1 \
+    --gradient_accumulation_steps 16 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
     --save_steps 1000 \
     --save_total_limit 1 \
     --learning_rate 5e-5 \
-    --weight_decay 0. 1\
+    --weight_decay 0.1 \
     --warmup_ratio 0.15 \
     --lr_scheduler_type "cosine" \
     --logging_steps 1 \
