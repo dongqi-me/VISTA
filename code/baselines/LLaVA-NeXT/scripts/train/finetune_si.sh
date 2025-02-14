@@ -47,17 +47,17 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node="${NUM_GPUS}" --nnodes="${NN
     --bf16 True \
     --run_name $RUN_NAME \
     --output_dir /mnt/bn/vl-research/checkpoints/onevision/$RUN_NAME \
-    --num_train_epochs 1 \
-    --per_device_train_batch_size 1 \
+    --num_train_epochs 16 \
+    --per_device_train_batch_size 8 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 2 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
     --save_steps 1000 \
     --save_total_limit 1 \
-    --learning_rate 1e-5 \
-    --weight_decay 0. \
-    --warmup_ratio 0.03 \
+    --learning_rate 5e-5 \
+    --weight_decay 0.1 \
+    --warmup_ratio 0.15 \
     --lr_scheduler_type "cosine" \
     --logging_steps 1 \
     --tf32 True \

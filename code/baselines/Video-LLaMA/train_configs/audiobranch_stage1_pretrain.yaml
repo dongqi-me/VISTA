@@ -61,19 +61,19 @@ run:
   task: video_text_pretrain
   # optimizer
   lr_sched: "linear_warmup_cosine_lr"
-  init_lr: 1e-4
+  init_lr: 5e-5
   min_lr: 8e-5
   warmup_lr: 1e-6
 
   weight_decay: 0.05
-  max_epoch: 5
-  batch_size_train: 32
-  batch_size_eval: 32
+  max_epoch: 16
+  batch_size_train: 16
+  batch_size_eval: 16
   num_workers: 8
   warmup_steps: 5000
   iters_per_epoch: 5000
 
-  seed: 42
+  seed: 2025
   output_dir: "output/audiobranch_stage1_pretrain"
 
   amp: True

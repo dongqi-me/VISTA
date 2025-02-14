@@ -39,7 +39,7 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node="${ARNOLD_WORKER_GPU}" --nno
     --bf16 True \
     --run_name $MID_RUN_NAME \
     --output_dir "/checkpoints/${MID_RUN_NAME}" \
-    --num_train_epochs 3 \
+    --num_train_epochs 16 \
     --per_device_train_batch_size 1 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 16 \
@@ -47,9 +47,9 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node="${ARNOLD_WORKER_GPU}" --nno
     --save_strategy "steps" \
     --save_steps 3000 \
     --save_total_limit 1 \
-    --learning_rate 5e-7 \
-    --weight_decay 0. \
-    --warmup_ratio 0.1 \
+    --learning_rate 5e-5 \
+    --weight_decay 0.1 \
+    --warmup_ratio 0.15 \
     --lr_scheduler_type "linear" \
     --logging_steps 1 \
     --tf32 True \

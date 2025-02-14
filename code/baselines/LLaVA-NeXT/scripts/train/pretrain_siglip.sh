@@ -38,9 +38,9 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node="${NUM_GPUS}" --nnodes="${NN
     --evaluation_strategy "no" \
     --save_strategy "no" \
     --save_steps 50000 \
-    --learning_rate 1e-3 \
-    --weight_decay 0. \
-    --warmup_ratio 0.03 \
+    --learning_rate 5e-3 \
+    --weight_decay 0.1 \
+    --warmup_ratio 0.15 \
     --lr_scheduler_type "cosine" \
     --logging_steps 1 \
     --tf32 True \
