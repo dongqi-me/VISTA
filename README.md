@@ -1,4 +1,2 @@
 # VISTA
-The code and data used in our paper are stored in the `code` and `data` folders, respectively.
-
-You could find more infomation on Huggingface page: https://huggingface.co/datasets/dongqi-me/VISTA
+The code in our paper is stored in the `code` folder. You could download the dataset from Huggingface page: https://huggingface.co/datasets/dongqi-me/VISTA
