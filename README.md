@@ -1,6 +1,6 @@
 # 📚 VISTA: Video-to-Text Summarization Dataset for Scientific Presentations
 
-This repository contains the official implementation of "What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations" accepted at Transactions of the Association for Computational Linguistics (TACL).
+This repository contains the official implementation of "What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations" accepted at the Annual Meeting of the Association for Computational Linguistics (ACL 2025).
 
 <p align="center">
   <img src="https://img.shields.io/badge/ACL-2025-blue" alt="ACL 2025">
