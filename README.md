@@ -5,16 +5,30 @@ This repository contains the official implementation of "What Is That Talk About
 <p align="center">
   <img src="https://img.shields.io/badge/ACL-2025-blue" alt="ACL 2025">
   <img src="https://img.shields.io/badge/Status-Available-green" alt="Status: Available">
+  <img src="https://img.shields.io/badge/Code-Cleaning-yellow" alt="Code: Cleaning">
 </p>
+
+## 🚧 Code Status
+
+The code is temporarily available in this repository but is currently undergoing cleanup and documentation.
+
+**Expected Release Date: July 1, 2025** ⏰
 
 ## 📥 Dataset
 
 The VISTA dataset is available on Huggingface:
 [https://huggingface.co/datasets/dongqi-me/VISTA](https://huggingface.co/datasets/dongqi-me/VISTA)
 
-## 💻 Code
+## 💻 Code Structure
 
-The implementation code is stored in the `code` folder. 
+The implementation code will be organized as follows:
+```
+code/
+├── data/              # Data processing scripts
+├── models/            # Model implementations
+├── training/          # Training scripts
+└── evaluation/        # Evaluation scripts
+```
 
 ## 📄 Paper Abstract
 
@@ -29,4 +43,4 @@ Transforming recorded videos into concise and accurate textual summaries is a gr
   journal={arXiv preprint arXiv:2502.08279},
   year={2025}
 }
-```
+``` 
