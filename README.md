@@ -12,7 +12,7 @@ This repository contains the official implementation of "What Is That Talk About
 
 The code is temporarily available in this repository but is currently undergoing cleanup and documentation.
 
-**Expected Release Date: July 1, 2025** ⏰
+**Expected Release Date: September 1, 2025** ⏰
 
 ## 📥 Dataset
 
@@ -37,10 +37,29 @@ Transforming recorded videos into concise and accurate textual summaries is a gr
 ## 📝 Citation
 
 ```bibtex
-@article{liu2025vista,
-  title={What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations},
-  author={Liu, Dongqi and Whitehouse, Chenxi and Yu, Xi and Mahon, Louis and Saxena, Rohit and Zhao, Zheng and Qiu, Yifu and Lapata, Mirella and Demberg, Vera},
-  journal={arXiv preprint arXiv:2502.08279},
-  year={2025}
+@inproceedings{liu-etal-2025-talk,
+    title = "What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations",
+    author = "Liu, Dongqi  and
+      Whitehouse, Chenxi  and
+      Yu, Xi  and
+      Mahon, Louis  and
+      Saxena, Rohit  and
+      Zhao, Zheng  and
+      Qiu, Yifu  and
+      Lapata, Mirella  and
+      Demberg, Vera",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.310/",
+    pages = "6187--6210",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Transforming recorded videos into concise and accurate textual summaries is a growing challenge in multimodal learning. This paper introduces VISTA, a dataset specifically designed for video-to-text summarization in scientific domains. VISTA contains 18,599 recorded AI conference presentations paired with their corresponding paper abstracts. We benchmark the performance of state-of-the-art large models and apply a plan-based framework to better capture the structured nature of abstracts. Both human and automated evaluations confirm that explicit planning enhances summary quality and factual consistency. However, a considerable gap remains between models and human performance, highlighting the challenges of our dataset. This study aims to pave the way for future research on scientific video-to-text summarization."
 }
 ``` 
