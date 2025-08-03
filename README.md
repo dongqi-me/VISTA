@@ -59,7 +59,6 @@ Transforming recorded videos into concise and accurate textual summaries is a gr
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2025.acl-long.310/",
     pages = "6187--6210",
-    ISBN = "979-8-89176-251-0",
-    abstract = "Transforming recorded videos into concise and accurate textual summaries is a growing challenge in multimodal learning. This paper introduces VISTA, a dataset specifically designed for video-to-text summarization in scientific domains. VISTA contains 18,599 recorded AI conference presentations paired with their corresponding paper abstracts. We benchmark the performance of state-of-the-art large models and apply a plan-based framework to better capture the structured nature of abstracts. Both human and automated evaluations confirm that explicit planning enhances summary quality and factual consistency. However, a considerable gap remains between models and human performance, highlighting the challenges of our dataset. This study aims to pave the way for future research on scientific video-to-text summarization."
+    ISBN = "979-8-89176-251-0"
 }
 ``` 
