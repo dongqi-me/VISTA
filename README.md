@@ -12,8 +12,6 @@ This repository contains the official implementation of "What Is That Talk About
 
 The code is temporarily available in this repository but is currently undergoing cleanup and documentation.
 
-**Expected Release Date: September 1, 2025** ⏰
-
 ## 📥 Dataset
 
 The VISTA dataset is available on Huggingface:
