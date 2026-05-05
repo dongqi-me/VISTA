@@ -8,10 +8,6 @@ This repository contains the official implementation of "What Is That Talk About
   <img src="https://img.shields.io/badge/Code-Cleaning-yellow" alt="Code: Cleaning">
 </p>
 
-## 🚧 Code Status
-
-The code is temporarily available in this repository but is currently undergoing cleanup and documentation.
-
 ## 📥 Dataset
 
 The VISTA dataset is available on Huggingface:
